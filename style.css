@@ -1,27 +1,24 @@
 :root {
-    --branco-prinncipal: #FFFFFF;
-    --cinza-segundaria: #c0c0c0;
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
-
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco-prinncipal);
+    color: var(--branco-principal);
 }
 
 .principal {
-
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
-
 }
 
-.conteiner {
+.container {
 
     height: 100vh;
     display: grid;
@@ -29,32 +26,41 @@ body {
 
 }
 
-
-.container_botao {
+.container__botao {
 
     background-color: var(--botao-azul);
     border-radius: 5px;
-    color: var(--branco-prinncipal);
+    padding: 1em;
+    color: var(--branco-principal);
     display: block;
     text-decoration: none;
-
 }
 
 .botao_secundario {
 
     background-color: transparent;
-    border: 2px solid var(--cinza-segundaria);
+    border: 2px solid var(--cinza-secundario);
 }
 
+.container__aviso {
 
-.container_aviso {
-
-font-size: 13px;
-color: var(--cinza-segundaria);
-
+    font-size: 12px;
+    color: var(--cinza-secundario);
 }
 
-.container_titulo {
-    font-size: 20px;
+.container__titulo {
+
+    font-size: 28px;
     font-weight: 700;
+}
+
+.container_imagem {
+
+    margin: 1em 0 2em 0;
+
+}
+
+.container_caixa {
+
+    margin: 0 6em
 }
