@@ -54,34 +54,79 @@ body {
     font-weight: 700;
 }
 
-.container__imagem {
+.container_imagem {
 
     margin: 1em 0 2em 0;
+
 }
 
-.container__caixa {
+.container_caixa {
 
-    margin: 0 6em;
+    margin: 0 6em
 }
 
-.secundario__imagem {
+.secundaria_imagem {
 
-    width: 80%;
+    width: 80%
 }
 
 .secundario {
 
     align-items: center;
     margin: 0 10em;
+
 }
 
-.descricao__titulo {
+.descricao_titulo {
+
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0.1em;
+    margin-bottom: 0. 1em;
+
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
+}
+
+.segundario__botao {
+
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+
+    padding: 2em;
+
+}
+
+.dispositivo__lista {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+.dispositivo {
+
+    text-align: center;
+
+}
+
+.dispositivo__titulo {
+
+    font-size: 48px;
+    color: var(--branco-principal);
+
+}
+
+.lista__item {
+
+    font-size: 32px;
+    color: var(--branco-principal);
+
 }
